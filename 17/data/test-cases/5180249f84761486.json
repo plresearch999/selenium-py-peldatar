@@ -1,0 +1,115 @@
+{
+  "uid" : "5180249f84761486",
+  "name" : "test_add_zero",
+  "fullName" : "test_calc#test_add_zero",
+  "historyId" : "d8534aaf8ee37b2fe34db2c21a0e79d6",
+  "time" : {
+    "start" : 1623396387685,
+    "stop" : 1623396387685,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-606"
+  }, {
+    "name" : "thread",
+    "value" : "2806-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "178eaa10898b67ee",
+        "reportUrl" : "https://plresearch999.github.io/selenium-py-peldatar/16//#testresult/178eaa10898b67ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623396238743,
+          "stop" : 1623396238743,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ec146d8cc19ec9b6",
+        "reportUrl" : "https://plresearch999.github.io/selenium-py-peldatar/15//#testresult/ec146d8cc19ec9b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623396229124,
+          "stop" : 1623396229124,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ef4ab33c48a082c2",
+        "reportUrl" : "https://plresearch999.github.io/selenium-py-peldatar/14//#testresult/ef4ab33c48a082c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623396196795,
+          "stop" : 1623396196795,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "61b37c0f402e3efe",
+        "reportUrl" : "https://plresearch999.github.io/selenium-py-peldatar/13//#testresult/61b37c0f402e3efe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623396179669,
+          "stop" : 1623396179669,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "24d5024685ad3ea7",
+        "reportUrl" : "https://plresearch999.github.io/selenium-py-peldatar/12//#testresult/24d5024685ad3ea7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623396161253,
+          "stop" : 1623396161253,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "378325ba5cc9c081",
+        "reportUrl" : "https://plresearch999.github.io/selenium-py-peldatar/11//#testresult/378325ba5cc9c081",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623395480438,
+          "stop" : 1623395480438,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5180249f84761486.json",
+  "parameterValues" : [ ]
+}
