@@ -1,0 +1,169 @@
+{
+  "id": "7ccb3a54-2e7b-4ba5-9ad2-02c5aea8f771",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "3d04adbd-65b0-4854-9c27-9b1f52cc5f1c",
+    "name": "test",
+    "commands": [{
+      "id": "dc72f67c-4440-42ce-ab88-834724e26419",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce8f78d1-6f6f-4d11-88e2-c3c9de5a51fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1100x579",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b82bd9ec-5d11-4a44-93ed-8a5d4913ae4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd557c78-dadb-4888-a0af-f8fb7e036719",
+      "comment": "",
+      "command": "type",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "7286b0e2-c86e-4bbc-807b-6aad4e5c50e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'GO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "271beb4e-c1f7-4f7b-878e-983351088728",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='q'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/section/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc300a8d-2007-4659-92a0-615bf4cf357b",
+      "comment": "",
+      "command": "type",
+      "target": "css=input:nth-child(1)",
+      "targets": [
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='q'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/section/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "hello wolrd"
+    }, {
+      "id": "c41f4a9a-ca4d-4b2b-90c4-36f28d815baa",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/section/form/p/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3d06da8-0862-41f0-aca6-c009bfa4100e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Applications",
+      "targets": [
+        ["linkText=Applications", "linkText"],
+        ["css=#container > .element-1 .element-1 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Applications')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='container']/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/about/apps/')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/ul/li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fef2b477-3677-405f-b7bb-9b338fed32d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=#about > .selected", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//li[@id='about']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/')]", "xpath:href"],
+        ["xpath=//header/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5df6e10-286c-4a32-a0b1-df8d7b3e570e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-header > .container",
+      "targets": [
+        ["css=.main-header > .container", "css:finder"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div", "xpath:idRelative"],
+        ["xpath=//header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efb2a2b4-b5f3-4ce5-8479-fb26ca9eead5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Donate",
+      "targets": [
+        ["linkText=Donate", "linkText"],
+        ["css=.donate-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Donate')]", "xpath:link"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://psfmember.org/civicrm/contribute/transact?reset=1&id=2')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Donate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ddee5cb-b36c-4184-b3c4-422c7925ee2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3d04adbd-65b0-4854-9c27-9b1f52cc5f1c"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}
