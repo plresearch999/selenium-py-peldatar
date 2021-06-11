@@ -1,0 +1,70 @@
+{
+  "uid" : "413db7bd5ab04d68",
+  "name" : "test_add_zero",
+  "fullName" : "test_calc#test_add_zero",
+  "historyId" : "d8534aaf8ee37b2fe34db2c21a0e79d6",
+  "time" : {
+    "start" : 1623396910796,
+    "stop" : 1623396910796,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-73"
+  }, {
+    "name" : "thread",
+    "value" : "2977-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8ac7bec8449b1a27",
+        "reportUrl" : "https://plresearch999.github.io/selenium-py-peldatar/19//#testresult/8ac7bec8449b1a27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623396837527,
+          "stop" : 1623396837527,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "413db7bd5ab04d68.json",
+  "parameterValues" : [ ]
+}
