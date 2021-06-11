@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Install Chrome
         run: |
-          apt install google-chrome-stable
+          sudo apt install google-chrome-stable
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Set up Python 3.9
