@@ -4,6 +4,9 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - name: Install Chrome
+        run: |
+          apt install google-chrome-stable
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Set up Python 3.9
