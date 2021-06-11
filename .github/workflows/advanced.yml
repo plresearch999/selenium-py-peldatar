@@ -33,7 +33,7 @@ jobs:
           seleniumbase install chromedriver
       - name: Run Tests
         run: |
-          selenium-side-runner project.side
+          selenium-side-runner test.side
       - name: Test with pytest
         run: |
           pytest --alluredir=allure-results
